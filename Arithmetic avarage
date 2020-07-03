@@ -1,0 +1,12 @@
+programa
+{
+	real grade1, grade2, grade3, grade4
+	
+	funcao inicio()
+	{
+		escreva("4 grades, spaced by Enter\n")
+		leia(grade1, grade2, grade3, grade4)
+		limpa()
+		escreva("Your grade arithmetic avarage is: ", (grade1 + grade2 + grade3 + grade4)/4)
+	}
+}
