@@ -4,7 +4,7 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Type two numbers spaced with Enter\n")
+		escreva("Type two numbers spaced by Enter\n")
 		leia(number1, number2)
 		limpa()
 		escreva("The sum between ", number1, " and ", number2, " is: ", number1+number2)
