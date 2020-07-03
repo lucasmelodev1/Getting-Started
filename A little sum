@@ -1,0 +1,12 @@
+programa
+{
+	inteiro number1, number2
+	
+	funcao inicio()
+	{
+		escreva("type two numbers spaced with Enter\n")
+		leia(number1, number2)
+		limpa()
+		escreva("The sum between ", number1, " and ", number2, " is: ", number1+number2)
+	}
+}
