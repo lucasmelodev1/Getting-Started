@@ -1,0 +1,13 @@
+programa
+{
+	inteiro evenorodd
+	funcao inicio()
+	{
+		escreva("Type any number: ")
+		leia(evenorodd)
+		se (evenorodd%2 == 0):
+			escreva("This number is even")
+		senao
+			escreva("This number is odd")
+	}
+}
