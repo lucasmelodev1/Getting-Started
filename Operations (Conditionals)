@@ -1,0 +1,34 @@
+programa
+{
+
+	funcao inicio()
+	{
+		cadeia op
+		real v1, v2, res
+		escreva("What do you want? \n1:Multuplication\n2:Division\n3:Sum\n4:Subtraction\n")
+		leia(op)
+		limpa()
+		escreva("Type a value: \n")
+		leia(v1)
+		limpa()
+		escreva("Type other value: \n")
+		leia(v2)
+		limpa()
+		senao se (op=="1"){
+			res = v1*v2	
+		}
+		senao se (op=="2"){
+			res = v1/v2	
+		}
+		senao se (op=="3"){
+			res = v1+v2	
+		}
+		senao se (op=="4"){
+			res = v1-v2	
+		}
+		senao{
+			res = 0.0	
+		}
+		escreva("The result is: \n", res)
+	}
+}
