@@ -14,7 +14,7 @@ programa
 		escreva("Type other value: \n")
 		leia(v2)
 		limpa()
-		senao se (op=="1"){
+		se (op=="1"){
 			res = v1*v2	
 		}
 		senao se (op=="2"){
