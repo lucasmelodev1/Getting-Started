@@ -1,0 +1,16 @@
+programa
+{
+	cadeia cardapio[] = {"Espeto completo carne","Espeto simples carne","Espeto carnecom bacon","Medalhão frango","Cafta","Linguiça","Coração","Guarnições","Pintado na brasa","Picanha","Filé com bacon","Espeto recanto","Alcatra","Abacaxi","Queijo"}
+	real precos[] = {10.0,6.0,8.5,7.5,7.0,7.0,7.0,6.0,30.0,25.0,25.0,20.0,20.0,7.0,7.0}
+	inteiro valor
+	funcao inicio()
+	{
+		escreva("Escolha um prato: \n")
+		para(inteiro i = 0; i<=14; i++){
+			escreva(i+1,":",cardapio[i],"\n")
+		}
+		escreva("-->")
+		leia(valor)
+		escreva(cardapio[valor-1]," custa R$",precos[valor-1])
+	}
+}
