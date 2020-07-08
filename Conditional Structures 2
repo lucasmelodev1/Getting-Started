@@ -1,0 +1,35 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia name, wsn
+		caracter createworld, worldsize
+		escreva("Do you want to create a world? Y/N\n")
+		leia(createworld)
+		limpa()
+		escolha(createworld){
+			caso 'Y':
+				escreva("What size do you want?\n(1)Small\t(2)Medium\t(3)Large\n")
+				leia(worldsize)
+				limpa()
+				escreva("How it will be called?\n")
+				leia(name)
+				se(worldsize=='1'){
+					wsn = "small"
+				}
+				senao se(worldsize=='2'){
+					wsn = "medium"
+				}
+				senao{
+					wsn = "large"
+				}
+				escreva("Creating a ",wsn," world called ",name)
+			pare
+			caso 'N':
+				limpa()
+				inicio()
+			pare	
+		}
+	}
+}
