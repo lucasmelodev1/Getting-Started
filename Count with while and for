@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro j = 1
+		enquanto(j<=100){
+			escreva(j, ", ")
+			j++
+		}
+		escreva("\n\nWhile end\n")
+		para(inteiro i = 100 ; i>=1 ; i--){
+		escreva(i, ", ")
+		}
+		escreva("\n\nFor end")
+	}
+}
