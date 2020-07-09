@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n
+		real soma=0.0
+		cadeia alunos[]={"Lucas","Luiz","Pedro"}
+		real notas[][] = {{10.0,8.0,7.0,8.5},{9.0,9.0,8.0,9.5},{7.0,5.0,10.0,9.0}}
+		para(inteiro a=0;a<3;a++){
+			escreva(a+1,":" ,alunos[a], "\n")
+		}
+		escreva("Escolha um aluno para verificar suas notas; \n")
+		leia(n)
+		limpa()
+		real medias[3]
+		para(inteiro nc=0;nc<4;nc++){
+			escreva(notas[n-1][nc], "\t")
+		}
+		para(inteiro c = 0;c<4;c++){
+			soma+= notas[n-1][c]
+			}
+		medias[n-1] = soma/4
+		escreva("\nA média de ",alunos[n-1]," é de: \n", medias[n-1])
+	}
+}
